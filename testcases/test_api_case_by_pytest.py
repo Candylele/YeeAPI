@@ -12,7 +12,7 @@ for case_case in test_case_list:
     case_step_infos.append(tuple(case_case.values()))
 
 @allure.epic('应用列表接口测试')
-@allure.feature('这是应用里面列表的增删改查接口测试')
+@allure.feature('这是应用里面列表的增删改查的接口测试')
 @allure.title('{case_id}')
 @allure.description('用例的预期结果基本为"Status":0')
 @pytest.mark.parametrize('case_id,case_step', case_step_infos)
