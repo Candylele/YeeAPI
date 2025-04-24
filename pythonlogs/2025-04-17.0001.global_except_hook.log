@@ -1,0 +1,7 @@
+2025-04-17 14:37:34 - global_except_hook - "D:\Tools\PyCharm\YeeAPITestProject\venv\lib\site-packages\nb_log\global_except_hook.py:14" - global_except_hook - ERROR - Unhandled exception:
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py", line 591, in <module>
+    result = r.request_by_step(case_info)
+  File "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py", line 55, in request_by_step
+    if result['code'] != 0:
+TypeError: 'NoneType' object is not subscriptable

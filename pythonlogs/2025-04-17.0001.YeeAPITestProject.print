@@ -1,0 +1,38 @@
+2025-04-17 14:37:34  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:216" -[print]-__post- 这是替换后的URL：https://uat.yeeflow.cn/openapi/v1/lists/30/1818904734567501824/items
+ 2025-04-17 14:37:34  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:243" -[print]-__post- 这是jsonpath取到的值：1912757309619834880
+ 2025-04-17 14:37:34  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:245" -[print]-__post- 这是tmp_variables结果: {'id': '1912757309619834880'}
+ 2025-04-17 14:37:34  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:249" -[print]-__post- 断言结果：测试用例执行通过
+ Traceback (most recent call last):
+  File "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py", line 591, in <module>
+    result = r.request_by_step(case_info)
+  File "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py", line 55, in request_by_step
+    if result['code'] != 0:
+TypeError: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py", line 591, in <module>
+    result = r.request_by_step(case_info)
+  File "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py", line 55, in request_by_step
+    if result['code'] != 0:
+TypeError: 'NoneType' object is not subscriptable
+2025-04-17 14:44:43  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:236" -[print]-__post- 这是替换后的URL：https://uat.yeeflow.cn/openapi/v1/lists/30/1818904734567501824/items
+ 2025-04-17 14:44:43  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:263" -[print]-__post- 这是jsonpath取到的值：1912759109051748353
+ 2025-04-17 14:44:43  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:265" -[print]-__post- 这是tmp_variables结果: {'id': '1912759109051748353'}
+ 2025-04-17 14:44:43  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:269" -[print]-__post- 断言结果：测试用例执行通过
+ 2025-04-17 14:44:43  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:611" -[print]-<module>- {'code': 3, 'message': '未知错误导致返回结果为 None', 'check_result': False}
+ 2025-04-17 14:44:43  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:612" -[print]-<module>- False
+ 2025-04-17 14:49:43  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:235" -[print]-__post- 这是替换后的URL：https://uat.yeeflow.cn/openapi/v1/lists/30/1818904734567501824/items
+ 2025-04-17 14:49:43  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:262" -[print]-__post- 这是jsonpath取到的值：1912760367435223041
+ 2025-04-17 14:49:43  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:264" -[print]-__post- 这是tmp_variables结果: {'id': '1912760367435223041'}
+ 2025-04-17 14:49:43  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:268" -[print]-__post- 断言结果：测试用例执行通过
+ 2025-04-17 14:49:43  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:610" -[print]-<module>- {'code': 3, 'message': '未知错误导致返回结果为 None', 'check_result': False}
+ 2025-04-17 14:49:43  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:611" -[print]-<module>- False
+ 2025-04-17 14:50:21  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:236" -[print]-__post- 这是替换后的URL：https://uat.yeeflow.cn/openapi/v1/lists/30/1818904734567501824/items
+ 2025-04-17 14:50:22  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:263" -[print]-__post- 这是jsonpath取到的值：1912760528689434624
+ 2025-04-17 14:50:22  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:265" -[print]-__post- 这是tmp_variables结果: {'id': '1912760528689434624'}
+ 2025-04-17 14:50:22  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:269" -[print]-__post- 断言结果：测试用例执行通过
+ 2025-04-17 14:50:22  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:611" -[print]-<module>- {'code': 3, 'message': '未知错误导致返回结果为 None', 'check_result': False}
+ 2025-04-17 14:50:22  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:612" -[print]-<module>- False
+ 2025-04-17 14:51:39  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:236" -[print]-__post- 这是替换后的URL：https://uat.yeeflow.cn/openapi/v1/lists/30/1818904734567501824/items
+ 2025-04-17 14:52:00  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:617" -[print]-<module>- {'code': 3, 'message': "调用接口[新增数据]时调用接口时发生连接异常，异常原因：HTTPSConnectionPool(host='uat.yeeflow.cn', port=443): Max retries exceeded with url: /openapi/v1/lists/30/1818904734567501824/items?columnType=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001D81CBB13A0>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。'))", 'check_result': False}
+ 2025-04-17 14:52:00  "D:\Tools\PyCharm\YeeAPITestProject\common\requests_utils.py:618" -[print]-<module>- False
+ 
