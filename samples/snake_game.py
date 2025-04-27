@@ -1,7 +1,8 @@
 import pygame
 import time
 import random
-
+#修改内容发布hotfix
+print("Hello World!")
 # 初始化pygame
 pygame.init()
 
@@ -27,7 +28,7 @@ clock = pygame.time.Clock()
 # 定义蛇的初始大小
 snake_block = 10
 # 定义蛇的移动速度
-snake_speed = 15
+snake_speed = 30
 
 # 定义字体样式
 font_style = pygame.font.SysFont("bahnschrift", 25)
