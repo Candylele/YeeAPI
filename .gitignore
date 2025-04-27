@@ -1,0 +1,49 @@
+# 忽略所有 .log 文件
+*.log
+*.csv
+*.json
+*.txt
+*.md
+*.ipynb
+*.pyc
+*.pkl
+*.jpg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.ico
+*.mp4
+*.avi
+*.mkv
+*.flv
+*.wmv
+*.mov
+*.mp3
+*.wav
+*.aac
+*.flac
+*.ogg
+*.wma
+*.exe
+
+# 忽略 __pycache__ 文件夹，Python 项目常见的缓存文件夹
+__pycache__/
+
+# 忽略 IDE 生成的配置文件，如 PyCharm 的 .idea 文件夹
+.idea/
+
+# 忽略虚拟环境文件夹，通常 Python 项目会使用 venv 或 virtualenv
+venv/
+
+logs/
+
+pytest_report/
+
+pythonlogs/
+
+# 忽略 .gitignore 文件本身，防止递归
+!.gitignore
+
+

@@ -26,6 +26,7 @@ clock = pygame.time.Clock()
 
 # 定义蛇的初始大小
 snake_block = 10
+# 定义蛇的移动速度
 snake_speed = 15
 
 # 定义字体样式
