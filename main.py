@@ -17,3 +17,5 @@ json = {
 }
 for key,value in json.items():
     print(key,value)
+
+print(json.items())
