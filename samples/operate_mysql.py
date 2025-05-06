@@ -1,3 +1,4 @@
+#数据库封装实现
 import pymysql
 import json
 import logging
@@ -18,7 +19,7 @@ class OperateMysql(object):
 
     def execute_query(self, sql, data=None, is_select=False, fetch_all=False):
         try:
-            with pymysql.connect(**self.config) as connection:
+            with pymysql.connect(**self.config) as connection:  #管理数据库连接和游标，确保资源在使用后自动关闭
                 with connection.cursor() as cursor:
                     if data:
                         cursor.execute(sql, data)
