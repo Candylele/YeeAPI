@@ -1,8 +1,8 @@
 import pygame
 import time
 import random
-#修改内容发布hotfix
-print("Hello World!")
+# 20250506试试修改内容发布hotfix
+print("Hello World!2")
 # 初始化pygame
 pygame.init()
 
