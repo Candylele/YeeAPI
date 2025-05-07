@@ -27,6 +27,7 @@
 *.ogg
 *.wma
 *.exe
+*.iml
 
 # 忽略 __pycache__ 文件夹，Python 项目常见的缓存文件夹
 __pycache__/
@@ -42,6 +43,8 @@ logs/
 pytest_report/
 
 pythonlogs/
+
+reports/
 
 # 忽略 .gitignore 文件本身，防止递归
 !.gitignore
