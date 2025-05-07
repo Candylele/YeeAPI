@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.ERROR, format='%(asctime)s - %(levelname)s - %
 
 class OperateMysql(object):
     """
-    该类用于封装 MySQL 数据库的常见操作，包括查询、插入、更新和删除等。
+    该类用于封装 MySQL 数据库的常见操作，包括查询、插入、更新和删除等
     """
     def __init__(self):
         """
