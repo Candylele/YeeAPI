@@ -18,8 +18,8 @@ class OperateMysql(object):
         self.config = {
             'host': "localhost",  # 数据库服务器地址
             'user': "root",  # 数据库用户名
-            'password': "123456",  # 数据库密码
-            'database': "test",  # 要连接的数据库名
+            'password': "!QAZ2wsx",  # 数据库密码
+            'database': "students",  # 要连接的数据库名
             'charset': 'utf8mb4',  # 字符编码，支持更多字符
             'cursorclass': pymysql.cursors.DictCursor  # 游标类型，返回字典形式的查询结果
         }
@@ -80,6 +80,14 @@ class OperateMysql(object):
         :param sql: 要执行的查询 SQL 语句
         :return: JSON 格式的所有查询结果
         """
+        return self.execute_query(sql, is_select=True, fetch_all=True)
+
+    def show_all_tables(self):
+        """
+        查询数据库下的所有表名。
+        :return: JSON 格式的所有表名查询结果
+        """
+        sql = "SHOW TABLES"
         return self.execute_query(sql, is_select=True, fetch_all=True)
 
     def del_data(self, sql):

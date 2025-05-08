@@ -44,8 +44,6 @@ pytest_report/
 
 pythonlogs/
 
-reports/
-
 # 忽略 .gitignore 文件本身，防止递归
 !.gitignore
 
