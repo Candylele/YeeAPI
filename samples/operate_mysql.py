@@ -123,9 +123,7 @@ if __name__ == "__main__":
     for i in data:
         i_data = (i['id'], i['name'], i['age'])
         insert_res = om.insert_data(
-            """
-            INSERT INTO test_student (id,name,age) VALUES (%s,%s,%s)
-            """, i_data
+            """INSERT INTO test_student (id,name,age) VALUES (%s,%s,%s)""", i_data
         )
         print(insert_res)
     # 查询数据
